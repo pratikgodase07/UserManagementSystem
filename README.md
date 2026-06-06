@@ -30,5 +30,5 @@ npm start
 ## Screenshots
 
 ![Home Page](home.png)
-![Edit User](edit.png)
+![Edit User](update.png)
 ![Delete Confirmation](delete.png)
