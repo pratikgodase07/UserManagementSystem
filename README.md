@@ -26,3 +26,9 @@ dotnet run
 cd user-management
 npm install
 npm start
+
+## Screenshots
+
+![Home Page](home.png)
+![Edit User](edit.png)
+![Delete Confirmation](delete.png)
