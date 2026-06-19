@@ -1,0 +1,11 @@
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.deps.json
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.pdb
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfo.cs
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\refint\UserManagement.Core.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.pdb
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Core\obj\Debug\net8.0\ref\UserManagement.Core.dll

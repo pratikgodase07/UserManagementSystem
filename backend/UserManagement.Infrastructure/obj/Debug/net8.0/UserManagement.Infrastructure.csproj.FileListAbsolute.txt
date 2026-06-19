@@ -1,0 +1,17 @@
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Infrastructure.deps.json
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Infrastructure.runtimeconfig.json
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Infrastructure.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Infrastructure.pdb
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Core.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\bin\Debug\net8.0\UserManagement.Core.pdb
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserMana.ED8CE3B0.Up2Date
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\refint\UserManagement.Infrastructure.dll
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.pdb
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\UserManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\hp\Downloads\UserManagementSystem (2)\UserManagementSystem\backend\UserManagement.Infrastructure\obj\Debug\net8.0\ref\UserManagement.Infrastructure.dll

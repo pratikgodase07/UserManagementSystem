@@ -1,0 +1,244 @@
+/* ─────────────────────────────────────────────
+   Global Reset & Variables
+───────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --danger: #dc2626;
+  --danger-hover: #b91c1c;
+  --success: #16a34a;
+  --warning: #d97706;
+  --bg: #f1f5f9;
+  --card-bg: #ffffff;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --border: #e2e8f0;
+  --error-color: #dc2626;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ─────────────────────────────────────────────
+   Layout
+───────────────────────────────────────────── */
+.app-container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+
+.app-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.app-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+.app-header p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 4px;
+}
+
+.app-main { display: flex; flex-direction: column; gap: 24px; }
+
+/* ─────────────────────────────────────────────
+   Cards
+───────────────────────────────────────────── */
+.form-card, .table-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary);
+}
+
+/* ─────────────────────────────────────────────
+   Form
+───────────────────────────────────────────── */
+.user-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.form-group { display: flex; flex-direction: column; flex: 1; min-width: 160px; }
+
+.form-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-light);
+  margin-bottom: 4px;
+}
+
+.input-field {
+  padding: 10px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+.input-field:focus { border-color: var(--primary); }
+.input-field.input-error { border-color: var(--error-color); }
+
+.error-text {
+  font-size: 0.75rem;
+  color: var(--error-color);
+  margin-top: 3px;
+}
+
+/* ─────────────────────────────────────────────
+   Buttons
+───────────────────────────────────────────── */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  white-space: nowrap;
+}
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.btn-primary   { background: var(--primary); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--primary-hover); }
+
+.btn-secondary { background: var(--border); color: var(--text); }
+.btn-secondary:hover { background: #cbd5e1; }
+
+.btn-edit   { background: #f0f9ff; color: var(--primary); border: 1px solid #bae6fd; padding: 6px 14px; }
+.btn-edit:hover { background: #e0f2fe; }
+
+.btn-delete { background: #fff1f2; color: var(--danger); border: 1px solid #fecaca; padding: 6px 14px; margin-left: 6px; }
+.btn-delete:hover { background: #fee2e2; }
+
+.btn-confirm { background: var(--success); color: #fff; }
+.btn-cancel  { background: var(--danger); color: #fff; }
+
+/* ─────────────────────────────────────────────
+   Table
+───────────────────────────────────────────── */
+.table-wrapper { overflow-x: auto; }
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.user-table th {
+  background: #f8fafc;
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-light);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--border);
+}
+.user-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.user-table tr:last-child td { border-bottom: none; }
+.user-table tr:hover td { background: #f8fafc; }
+
+.action-cell { display: flex; align-items: center; }
+
+/* ─────────────────────────────────────────────
+   Modal & Dialog (Overlay)
+───────────────────────────────────────────── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 16px;
+}
+
+.modal {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 28px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.modal-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary);
+}
+.modal-actions { display: flex; gap: 12px; margin-top: 8px; }
+
+.dialog {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 28px;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+.dialog-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+.dialog-message {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+.dialog-actions { display: flex; gap: 12px; justify-content: center; }
+
+/* ─────────────────────────────────────────────
+   Alerts & State Messages
+───────────────────────────────────────────── */
+.alert {
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  margin-bottom: 12px;
+}
+.alert-success { background: #f0fdf4; color: var(--success); border: 1px solid #bbf7d0; }
+.alert-error   { background: #fff1f2; color: var(--danger);  border: 1px solid #fecaca; }
+
+.state-msg {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+.state-msg.error { color: var(--danger); }
